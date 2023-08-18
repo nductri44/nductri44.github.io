@@ -5,77 +5,59 @@
 body {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  padding-right: 100px;
-  padding-left: 50px;
-}
-
-aside {
-  font-family: 'Inter', sans-serif;
-  width: 100%;
-  height: 300px;
-  padding-left: 120px;
-  padding-right: 20px;
-  position: fixed;
-
-}
-
-aside h2{
-  font-size: 20px;
-  color: #222b63;
-}
-
-aside button {
-  width: 170px;
-  border-radius: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 main {
+  width: 100%;
   padding-top: 20px;
   padding-bottom: 20px;
-  padding-right: 80px;
-  width: 100%;
-  
 }
 
 button {
-  display: block;
-  margin-left: 40px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 70%;
+  width: 80%;
+  height: 50px;
+  margin: 20px 10px;
   background-color: #222b63;
   color: white;
   padding: 10px 10px;
   border: none;
-  border-radius: 8px;
+  border-radius: 16px;
   cursor: pointer;
 }
 
 .left_Side {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   background-color: #f1f7fb;
   border-radius: 8px;
   box-shadow: 0 0 5px 3px #cce6fc;
-  width: 20%;
   padding-bottom: 5px;
 }
 
 .info1 {
   background-color: white;
   margin: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 17px;
-  padding-right: 16px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
   border-radius: 8px;
 }
 
-.name {
-  padding-left: 25px;
-  padding-top: 0;
+.name-profile {
+  margin: 10px 0;
+  font-size: 24px;
+  font-weight: 700;
+  color: #222b63;
 }
 
 .social-media {
-  margin-left: 20px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .social-gap {
@@ -83,53 +65,45 @@ button {
   margin-right: 10px;
 }
 
-.fe-dev {
+.frontend-dev {
+  width: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  padding: 5px;
   margin-bottom: 20px;
-  margin-left: 5px;
-  width: 160px;
+  background-color: #DDEFF8;
   border: 2px solid #DDEFF8;
   border-radius: 15px;
-  padding: 3px;
-  text-align: center;
-  background-color: #DDEFF8;
-  font-size: 13px;
 }
 
-.contactInfo ul {
-  position: relative;
- }
-
-.contactInfo ul li {
-  position: relative;
-  list-style: none;
-  margin: 10px, 0;
-  cursor: pointer;
+.info-padding {
+  padding: 10px 10px;
 }
 
-.contactInfo ul li .icon {
-  display: inline-block;
-  width: 30px;
+.contactInfo {
+  padding-left: 20px;
+  text-align: left;
 }
 
-.contactInfo ul li span {
-  font-size: 12px;
+.contactInfo span {
+  font-size: 18px;
+  font-weight: 450;
 }
- 
-.icon {
-  max-width: 100%;
-  max-height:100%;
- }
- 
- .text {
-   font-size: 10px;
- }
 
- .download-cv {
-  font-size: 14px;
-  font-weight: 600;
- }
+.text {
+  font-size: 10px;
+}
+
+.download-cv {
+  font-size: 16px;
+  font-weight: 700;
+}
 
 .letter {
+  font-size: 28px;
+  font-weight: 700;
   color: #222b63;
 }
 
@@ -138,23 +112,28 @@ button {
   box-shadow: 0 0 5px 3px #cce6fc;
 }
 
+.skill-position {
+  display: flex;
+  flex-direction: column;
+}
+
 .progress-bar-container:not(:last-child) {
   margin-bottom: 50px;
 }
 
 .progress-bar {
-  width: 320px;
-  height: 10px;
+  width: 100%;
+  height: 15px;
   margin-top: 10px;
   background-color: #cce6fc;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .percentage {
   display: block;
   height: 100%;
   background-color: #2c7dc0;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .html {
@@ -179,71 +158,72 @@ button {
 
 .progress-label-html {
   position: relative;
+  font-size: 16px;
   color: blue;
 }
 
-.progress-label-html::after{
+.progress-label-html::after {
   content: "80%";
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   color: blue;
 }
 
 .progress-label-js {
   position: relative;
+  font-size: 16px;
   color: blue;
 }
 
-.progress-label-js::after{
+.progress-label-js::after {
   content: "60%";
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   color: blue;
 }
 
 .progress-label-css {
   position: relative;
+  font-size: 16px;
   color: blue;
 }
 
-.progress-label-css::after{
+.progress-label-css::after {
   content: "75%";
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   color: blue;
 }
 
 .progress-label-sass {
   position: relative;
+  font-size: 16px;
   color: blue;
 }
 
-.progress-label-sass::after{
+.progress-label-sass::after {
   content: "60%";
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   color: blue;
 }
 
 .progress-label-bootstrap {
   position: relative;
+  font-size: 16px;
   color: blue;
 }
 
-.progress-label-bootstrap::after{
+.progress-label-bootstrap::after {
   content: "80%";
   position: absolute;
-  top:0;
+  top: 0;
   right: 0;
   color: blue;
-}
-
-.progress-element {
-  padding-left: 50px;
 }
 
 .main-padding {
@@ -277,70 +257,14 @@ button {
   box-shadow: 0 0 5px 3px #cce6fc;
 }
 
-.form-section {
-  display: block;
-  margin-top: 30px;
-  padding-top: 1px;
-  padding-left: 17px;
-  padding-right: 15px;
-  padding-bottom: 1px;
-  border-radius: 14px;
-  background-color: #2c7dc0;
-  color: white; 
-}
-
-.form-section p {
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
-  font-size: 22px;
-}
-
-.table-contact {
-  margin-top: 20px;
-}
-
-
-.table-contact input {
-  width: 300px;
-  height: 40px;
-  margin-top: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 2px;
-  padding-left: 10px;
-  padding-bottom: 2px;
-  font-size: 14px;
-  color: #2c7dc0;
-  box-sizing: border-box;
-}
-
-
-.table-contact textarea {
-  width: 800px;
-  height: 90px;
-  margin-top: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  font-size: 14px;
-  color: #2c7dc0;
-  box-sizing: border-box;
-}
-
-.form-block {
-  display: flex;
-  margin-bottom: 10px;
-}
-
 .font1 {
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
   text-align: justify;
 }
 
 .font2 {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   color: #6c6c6c;
   text-align: justify;
@@ -348,7 +272,7 @@ button {
 
 .font3 {
   font-family: 'Inter', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #6c6c6c;
   text-align: justify;
@@ -356,77 +280,111 @@ button {
 
 .font4 {
   font-family: 'Inter', sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   text-align: justify;
 }
 
-.contact-input input, label {
-  display:block;
+.form-section {
+  display: block;
+  margin-top: 30px;
+  border-radius: 14px;
+  background-color: #2c7dc0;
+  color: white;
 }
 
-.fullname {
-  float:left;
-  margin-right:30px;
+.form-headline {
+  margin: 0;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
-.fullname input {
-  width: 120%;
-  height: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  padding-left: 10px;
-  font-size: 14px;
-  color:#2c7dc0;
+.form-name-email {
+  display: flex;
+  flex-direction: row;
+}
+
+.form-contact {
+  display: block;
+  padding: 10px 15px;
+
+}
+
+.fname {
+  display: flex;
+  flex-direction: column;
+}
+
+.fname input {
+  width: 100%;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c7dc0;
+  border-style: none;
+  border-radius: 6px;
+}
+
+.fname label {
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .email {
-  float: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .email input {
-  width: 90%;
-  height: 30px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 80px;
-  padding-left: 10px;
-  font-size: 14px;
-  color:#2c7dc0;
-}
-
-.message {
-  margin-right: 50px;
-}
-
-.message input {
   width: 100%;
-  height: 80px;
-  margin-top: 10px;
-  margin-right: 20px;
-  padding-left: 10px;
-  font-size: 14px;
-  color:#2c7dc0;
-}
-
-.fullname label {
-  font-size: 14px;
+  height: 50px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c7dc0;
+  border-style: none;
+  border-radius: 6px;
 }
 
 .email label {
-  font-size: 14px;
-  margin-left: 80px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+}
+
+.message textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #2c7dc0;
+  border-style: none;
+  border-radius: 6px;
 }
 
 .message label {
-  font-size: 14px;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .send-button {
   display: block;
-  margin-top: 20px;
-  width: 180px;
-  font-size: 15px;
-  font-weight: bold;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+  font-size: 20px;
+  font-weight: 700;
   background-color: white;
   color: #2c7dc0;
   padding: 10px 10px;
@@ -434,13 +392,3 @@ button {
   border-radius: 8px;
   cursor: pointer;
 }
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  [class*="col-"] {
-    width: 100%;
-  }
-
-
-
-} 
