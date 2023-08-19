@@ -15,18 +15,6 @@ main {
   padding-bottom: 20px;
 }
 
-button {
-  width: 80%;
-  height: 50px;
-  margin: 20px 10px;
-  background-color: #222b63;
-  color: white;
-  padding: 10px 10px;
-  border: none;
-  border-radius: 16px;
-  cursor: pointer;
-}
-
 .left_Side {
   width: 100%;
   text-align: center;
@@ -66,13 +54,14 @@ button {
 }
 
 .frontend-dev {
-  width: 50%;
+  width: 208px;
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
   padding: 5px;
   margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 400;
   background-color: #DDEFF8;
   border: 2px solid #DDEFF8;
   border-radius: 15px;
@@ -93,12 +82,21 @@ button {
 }
 
 .text {
-  font-size: 10px;
+  padding-left: 15px;
 }
 
 .download-cv {
+  width: 90%;
+  height: 50px;
+  margin: 20px 10px;
+  padding: 10px 10px;
+  background-color: #222b63;
   font-size: 16px;
   font-weight: 700;
+  color: white;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
 }
 
 .letter {
@@ -115,10 +113,6 @@ button {
 .skill-position {
   display: flex;
   flex-direction: column;
-}
-
-.progress-bar-container:not(:last-child) {
-  margin-bottom: 50px;
 }
 
 .progress-bar {
@@ -391,4 +385,131 @@ button {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+
+.contactInfo {
+  display: inline-flex;
+  flex-direction: row;
+  padding-left: 20px;
+  text-align: left;
+}
+
+.contactInfo span {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.skills-row {
+  display: flex;
+}
+
+.skill-bar1 {
+  width: 47%;
+  margin-right: 6%;
+}
+
+.skill-bar2 {
+  width: 47%;
+}
+
+.form-row {
+  display: flex;
+}
+
+.fname {
+  width: 48%;
+  margin-right: 5%;
+}
+
+.email {
+  width: 48%;
+}
+
+.button-center {
+  margin-left: 37.2%;
+  margin-right: 37.2%;
+}
+
+.send-button {
+  width: 230px;
+}
+}
+
+@media only screen and (min-width: 991px) {
+
+body {
+  padding: 10px 10px 8% 8%;
+}
+
+.structure {
+  display: flex;
+  flex-direction: row;
+}
+
+main {
+  width: 90%;
+  margin-top: 0;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.left_Side {
+  width: 32%;
+  height: 690px;
+  position: sticky;
+  top: 0;
+  margin-top: 20px;
+  margin-bottom: 25px;
+  padding-bottom: 100px;
+}
+
+.frontend-dev {
+  width: 100%;
+}
+
+.contactInfo span {
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.download-cv {
+  width: 70%;
+}
+
+.skills-row {
+  display: flex;
+}
+
+.skill-bar1 {
+  width: 47%;
+  margin-right: 6%;
+}
+
+.skill-bar2 {
+  width: 47%;
+}
+
+.form-row {
+  display: flex;
+}
+
+.fname {
+  width: 48%;
+  margin-right: 5%;
+}
+
+.email {
+  width: 48%;
+}
+
+.button-center {
+  margin-left: 37.2%;
+  margin-right: 37.2%;
+}
+
+.send-button {
+  width: 230px;
+}
 }
