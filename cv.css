@@ -388,128 +388,131 @@ main {
 }
 
 @media only screen and (min-width: 768px) and (max-width: 990px) {
+  /*-- Code cho màn hình vừa (Table) viết ở đây --*/
 
-.contactInfo {
-  display: inline-flex;
-  flex-direction: row;
-  padding-left: 20px;
-  text-align: left;
-}
+  .contactInfo {
+    display: inline-flex;
+    flex-direction: row;
+    padding-left: 20px;
+    text-align: left;
+  }
 
-.contactInfo span {
-  font-size: 14px;
-  font-weight: 500;
-}
+  .contactInfo span {
+    font-size: 14px;
+    font-weight: 500;
+  }
 
-.skills-row {
-  display: flex;
-}
+  .skills-row {
+    display: flex;
+  }
 
-.skill-bar1 {
-  width: 47%;
-  margin-right: 6%;
-}
+  .skill-bar1 {
+    width: 47%;
+    margin-right: 6%;
+  }
 
-.skill-bar2 {
-  width: 47%;
-}
+  .skill-bar2 {
+    width: 47%;
+  }
 
-.form-row {
-  display: flex;
-}
+  .form-row {
+    display: flex;
+  }
 
-.fname {
-  width: 48%;
-  margin-right: 5%;
-}
+  .fname {
+    width: 48%;
+    margin-right: 5%;
+  }
 
-.email {
-  width: 48%;
-}
+  .email {
+    width: 48%;
+  }
 
-.button-center {
-  margin-left: 37.2%;
-  margin-right: 37.2%;
-}
+  .button-center {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
 
-.send-button {
-  width: 230px;
-}
+  .send-button {
+    width: 100%;
+  }
+
 }
 
 @media only screen and (min-width: 991px) {
+  /*-- Code cho màn hình lớn (PC) viết ở đây --*/
 
-body {
-  padding: 10px 10px 8% 8%;
-}
+  body {
+    padding: 10px 10px 8% 8%;
+  }
 
-.structure {
-  display: flex;
-  flex-direction: row;
-}
+  .structure {
+    display: flex;
+    flex-direction: row;
+  }
 
-main {
-  width: 90%;
-  margin-top: 0;
-  margin-left: 3%;
-  margin-right: 3%;
-}
+  main {
+    width: 90%;
+    margin-top: 0;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 
-.left_Side {
-  width: 32%;
-  height: 690px;
-  position: sticky;
-  top: 0;
-  margin-top: 20px;
-  margin-bottom: 25px;
-  padding-bottom: 100px;
-}
+  .left_Side {
+    width: 32%;
+    height: 690px;
+    position: sticky;
+    top: 0;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    padding-bottom: 100px;
+  }
 
-.frontend-dev {
-  width: 100%;
-}
+  .frontend-dev {
+    width: 100%;
+  }
 
-.contactInfo span {
-  font-size: 15px;
-  font-weight: 450;
-}
+  .contactInfo span {
+    font-size: 15px;
+    font-weight: 450;
+  }
 
-.download-cv {
-  width: 70%;
-}
+  .download-cv {
+    width: 70%;
+  }
 
-.skills-row {
-  display: flex;
-}
+  .skills-row {
+    display: flex;
+  }
 
-.skill-bar1 {
-  width: 47%;
-  margin-right: 6%;
-}
+  .skill-bar1 {
+    width: 47%;
+    margin-right: 6%;
+  }
 
-.skill-bar2 {
-  width: 47%;
-}
+  .skill-bar2 {
+    width: 47%;
+  }
 
-.form-row {
-  display: flex;
-}
+  .form-row {
+    display: flex;
+  }
 
-.fname {
-  width: 48%;
-  margin-right: 5%;
-}
+  .fname {
+    width: 48%;
+    margin-right: 5%;
+  }
 
-.email {
-  width: 48%;
-}
+  .email {
+    width: 48%;
+  }
 
-.button-center {
-  margin-left: 37.2%;
-  margin-right: 37.2%;
-}
+  .button-center {
+    margin-left: 33%;
+    margin-right: 33%;
+  }
 
-.send-button {
-  width: 230px;
-}
+  .send-button {
+    width: 100%;
+  }
 }
