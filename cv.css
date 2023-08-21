@@ -459,7 +459,7 @@ main {
   }
 
   .left_Side {
-    width: 32%;
+    width: 260px;
     height: 690px;
     position: sticky;
     top: 0;
